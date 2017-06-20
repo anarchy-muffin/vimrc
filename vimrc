@@ -21,6 +21,10 @@ Plugin 'VundleVim/Vundle.vim'
  Plugin 'scrooloose/syntastic'
  Plugin 'Yggdroot/indentLine'
  Plugin 'vim-airline/vim-airline'
+ Plugin 'christoomey/vim-system-copy'
+ Plugin 'jaredly/vim-debug'
+ Plugin 'rhysd/8cc.vim'
+ Plugin 'airblade/vim-gitgutter'
 "  All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -63,12 +67,15 @@ set number
 " Set number of tab spaces
 set tabstop=4
 
+" Set no swapfile
+set noswapfile
+
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
 syntax enable
 set background=dark
 "let g:solarized_termcolors=256
-colorscheme solarized
+colorscheme basic-dark
 "set t_Co=256
 
 " NERDTreeAutoLoad
