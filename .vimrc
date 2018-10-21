@@ -21,12 +21,6 @@ Plugin 'VundleVim/Vundle.vim'
  Plugin 'scrooloose/syntastic'
  Plugin 'Yggdroot/indentLine'
  Plugin 'vim-airline/vim-airline'
- Plugin 'christoomey/vim-system-copy'
- Plugin 'jaredly/vim-debug'
- Plugin 'rhysd/8cc.vim'
- Plugin 'airblade/vim-gitgutter'
- Plugin 'xuyuanp/nerdtree-git-plugin'
- Plugin 'sudar/vim-arduino-syntax'
 "  All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
